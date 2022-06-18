@@ -49,34 +49,34 @@ const Calculadora = () => {
           <div className="row">
           <span >{numeros}</span>
         <div className="numeros col-md-8">
-          <button onClick={agregar} value={9}>
+          <button  className=" btn btn-outline-success" onClick={agregar} value={9}>
             9
           </button>
-          <button onClick={agregar} value={8}>
+          <button className="btn btn-outline-success" onClick={agregar} value={8}>
             8
           </button>
-          <button onClick={agregar} value={7}>
+          <button className="btn btn-outline-success" onClick={agregar} value={7}>
             7
           </button>
-          <button onClick={agregar} value={6}>
+          <button className="btn btn-outline-success" onClick={agregar} value={6}>
             6
           </button>
-          <button onClick={agregar} value={5}>
+          <button className="btn btn-outline-success" onClick={agregar} value={5}>
             5
           </button>
-          <button onClick={agregar} value={4}>
+          <button className="btn btn-outline-success" onClick={agregar} value={4}>
             4
           </button>
-          <button onClick={agregar} value={3}>
+          <button className="btn btn-outline-success" onClick={agregar} value={3}>
             3
           </button>
-          <button onClick={agregar} value={2}>
+          <button className="btn btn-outline-success" onClick={agregar} value={2}>
             2
           </button>
-          <button onClick={agregar} value={1}>
+          <button className="btn btn-outline-success" onClick={agregar} value={1}>
             1
           </button>
-          <button onClick={agregar} value={0}>
+          <button className="btn btn-outline-success" onClick={agregar} value={0}>
             0
           </button>
         </div>
@@ -99,12 +99,12 @@ const Calculadora = () => {
           </button>
         </div>
           </div>
-
         </div>
         <div className="col-md-4"></div>
       </div>
     </div>
   );
 };
-
 export default Calculadora;
+
+

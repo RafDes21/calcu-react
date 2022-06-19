@@ -43,10 +43,10 @@ const Calculadora = () => {
       <div className="row resultado">
         
       </div>
-      <div className="caja row">
+      <div className="row">
         <div className="col-md-4"></div>
         <div className="col-md-4">
-          <div className="row">
+          <div className=" caja row">
           <span >{numeros}</span>
         <div className="numeros col-md-8">
           <button  className=" btn btn-outline-success" onClick={agregar} value={9}>
@@ -79,22 +79,26 @@ const Calculadora = () => {
           <button className="btn btn-outline-success" onClick={agregar} value={0}>
             0
           </button>
+          <button className="btn btn-outline-success" onClick={agregar} value={"."}>
+            .
+          </button>
+
+          <button className="btn btn-outline-success" onClick={borrar}>AC</button>
         </div>
         <div className="operaciones col-md-4">
-          <button onClick={borrar}>AC</button>
-          <button onClick={operadores} value={"+"}>
+          <button className="btn btn-secondary" onClick={operadores} value={"+"}>
             +
           </button>
-          <button onClick={operadores} value={"-"}>
+          <button className="btn btn-secondary" onClick={operadores} value={"-"}>
             -
           </button>
-          <button onClick={operadores} value={"/"}>
+          <button className="btn btn-secondary" onClick={operadores} value={"/"}>
             /
           </button>
-          <button onClick={operadores} value={"*"}>
-            *
+          <button className="btn btn-secondary" onClick={operadores} value={"*"}>
+            X
           </button>
-          <button onClick={operacion} value={"="}>
+          <button className="btn btn-secondary" onClick={operacion} value={"="}>
             =
           </button>
         </div>

@@ -1,11 +1,31 @@
 .numeros button{
     width: 50px;
     margin: 10px;
+    box-shadow: 2px 2px 2px rgb(104, 95, 95);
 }
 .operaciones button{
     width: 50px;
     margin: 10px;
+    box-shadow: 2px 2px 2px rgb(160, 142, 142);
 }
 .calculadora .row span{
-    font-size: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid green;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color:rgba(88, 224, 24, 0.795);
+    box-shadow: 2px 2px 2px rgb(214, 203, 203);
+}
+.calculadora .caja{
+    border: 2px solid black;
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.74);
+ 
 }

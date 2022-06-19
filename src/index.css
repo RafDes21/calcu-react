@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://t1.ev.ltmcdn.com/es/posts/3/2/2/la_madera_y_sus_tipos_1223_0_600.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    height: 100vh;
 }
 
 code {
